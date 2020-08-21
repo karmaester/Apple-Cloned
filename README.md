@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# NYT Article Clones
+# Apple Page Cloned
 
 > Made as the fourth HTML/CSS project in the Microverse curriculum
 
