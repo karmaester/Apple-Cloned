@@ -10,15 +10,28 @@ body {
 
 nav {
   position: fixed;
+  z-index: 10;
+  top: 125px;
+  right: calc((100% - 900px) / 2);
+  width: 900px;
+  background: linear-gradient(white, gray);
 }
 
 nav ul {
   display: flex;
+  justify-content: space-between;
+  list-style: none;
+  line-height: 25px;
+  align-content: center;
 }
 
 nav li {
-  border-right: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid #fff;
+  width: 100px;
 }
+
 nav li:last-child {
   border-right: none;
 }
