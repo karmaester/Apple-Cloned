@@ -11,10 +11,10 @@ body {
 nav {
   position: fixed;
   z-index: 10;
-  top: 125px;
+  top: 100px;
   right: calc((100% - 900px) / 2);
   width: 900px;
-  background: linear-gradient(white, gray);
+  background: linear-gradient(#7c7c7c 0%, #606060 50%, #747474 90%);
 }
 
 nav ul {
@@ -25,15 +25,23 @@ nav ul {
   align-content: center;
 }
 
+nav li:last-child {
+  border-right: none;
+}
+
 nav li {
   display: flex;
   justify-content: center;
   border-right: 1px solid #fff;
   width: 100px;
+  padding: 4px 0;
 }
 
-nav li:last-child {
-  border-right: none;
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .main-div {
