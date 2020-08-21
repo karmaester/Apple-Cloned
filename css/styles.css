@@ -8,16 +8,32 @@ body {
   font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
 }
 
-nav {
+.main-nav {
   position: fixed;
+  display: flex;
   z-index: 10;
   top: 100px;
   right: calc((100% - 900px) / 2);
-  width: 900px;
-  background: linear-gradient(#7c7c7c 0%, #606060 50%, #747474 90%);
+  width: 955px;
+  background: linear-gradient(
+    #585858 0%,
+    #747474 4%,
+    #747474 35%,
+    #6e6e6e 50%,
+    #585858 50%,
+    #5c5c5c 75%,
+    #868686 96%,
+    #747474 96%,
+    #585858 100%
+  );
+  border-radius: 4px;
 }
 
-nav ul {
+.main-nav .fab {
+  font-size: 22px;
+}
+
+.main-nav ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -25,23 +41,39 @@ nav ul {
   align-content: center;
 }
 
-nav li:last-child {
-  border-right: none;
-}
-
-nav li {
+.main-nav li {
   display: flex;
   justify-content: center;
-  border-right: 1px solid #fff;
-  width: 100px;
+  border-right: 1px solid rgb(155, 145, 145);
+  width: 105px;
   padding: 4px 0;
 }
 
-nav li a {
+.main-nav li a {
   color: #fff;
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
+}
+
+.main-nav .search {
+  position: relative;
+}
+
+.main-nav .search .fas {
+  color: white;
+  position: absolute;
+  right: 90px;
+  top: 12px;
+  font-size: 12px;
+}
+
+.main-nav input {
+  width: 95px;
+  height: 20px;
+  border-radius: 10px;
+  background: linear-gradient(#7c7c7c 0%, #606060 50%, #747474 90%);
+  margin: 8px 15px 0 10px;
 }
 
 .main-div {
