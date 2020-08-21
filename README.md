@@ -1,65 +1,41 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# NYT Article Clones
 
-> One paragraph statement about the project.
+> Made as the fourth HTML/CSS project in the Microverse curriculum
 
-![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+![screenshot](./screenshot.png)
+
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://karmaester.github.io/Apple-Cloned/.)
 
 ## Authors
 
-👤 **Author1**
+👤 **karmaester**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/karmaester)
+- Twitter: [@twitterhandle](https://twitter.com/karmaendlich)
+- Linkedin: [linkedin](https://www.linkedin.com/in/khristian-rojas/)
 
-👤 **Author2**
+👤 **martinnajjar12**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/martinnajjar12)
+- Twitter: [@twitterhandle](https://twitter.com/martin_najjar)
+- Linkedin: [linkedin](https://www.linkedin.com/in/martin-najjar-174948198/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/karmaester/Apple-Cloned/issues).
 
 ## Show your support
 
@@ -67,10 +43,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+- Inspired on an older version of apple store
+https://web.archive.org/web/20140301004610/http://www.apple.com/
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
