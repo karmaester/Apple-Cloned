@@ -78,3 +78,42 @@ nav li:last-child {
   font-weight: 100;
   color: hsl(0deg 0% 100% / 70%);
 }
+
+/* -------------------------- Section below ---------------------- */
+
+.section-below {
+  width: 95vw;
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box {
+  margin-right: 2px;
+  margin-top: 2px;
+}
+
+/* ------------------------------- Footer ----------------------------- */
+
+footer {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-left nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
