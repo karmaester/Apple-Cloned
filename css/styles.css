@@ -8,14 +8,22 @@ body {
   font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
 }
 
+.font-blue {
+  color: #0088cc;
+  text-decoration: none;
+}
+
 .w-1200px {
   width: 95vw;
   min-width: 1200px;
 }
 
+.d-flex {
+  display: flex;
+}
+
 .main-nav {
   position: absolute;
-  display: flex;
   z-index: 10;
   top: 75px;
   right: calc((100% - 900px) / 2);
@@ -25,10 +33,10 @@ body {
     #747474 4%,
     #747474 35%,
     #6e6e6e 50%,
-    #585858 50%,
-    #5c5c5c 75%,
-    #868686 96%,
-    #747474 96%,
+    #646464 50%,
+    #5c5c5c 65%,
+    #7e7d7d 98%,
+    #747474 98%,
     #585858 100%
   );
   border-radius: 4px;
@@ -39,7 +47,6 @@ body {
 }
 
 .main-nav ul {
-  display: flex;
   justify-content: space-between;
   list-style: none;
   line-height: 25px;
@@ -47,9 +54,8 @@ body {
 }
 
 .main-nav li {
-  display: flex;
   justify-content: center;
-  border-right: 1px solid rgb(155, 145, 145);
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
   width: 105px;
   padding: 4px 0;
 }
@@ -157,8 +163,10 @@ body {
 /* ------------------------------- Footer ----------------------------- */
 
 footer {
-  width: 900px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 25px auto;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .left {
@@ -169,12 +177,49 @@ footer {
   float: right;
 }
 
+.footer-nav .flag img {
+  height: 16px;
+  width: 16px;
+}
+
+.footer-nav ul {
+  justify-content: space-between;
+  list-style: none;
+  width: 520px;
+  align-items: center;
+}
+
+.footer-nav ul .flex-item {
+  border-right: 1px solid rgb(155, 145, 145);
+  justify-content: center;
+  padding-right: 5px;
+}
+
 .clear-left {
   clear: left;
+  padding-top: 25px;
 }
 
 .clear-left nav {
-  display: flex;
   justify-content: space-between;
   list-style: none;
+  width: 420px;
+}
+
+.clear-left ul {
+  justify-content: space-between;
+  list-style: none;
+}
+
+.clear-left ul li {
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.clear-left ul li:first-child {
+  border-right: 1px solid rgb(155, 145, 145);
+}
+
+.clear-left ul li:nth-child(2) {
+  padding-left: 5px;
 }
