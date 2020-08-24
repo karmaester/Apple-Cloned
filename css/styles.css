@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.space-b {
+  justify-content: space-between;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.font-blue {
+  color: #08c;
+  text-decoration: none;
+}
+
+.w-1200px {
+  width: 100%;
+  min-width: 1200px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.footer-nav ul .flex-item {
+  border-right: 1px solid rgb(155, 145, 145);
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.main-nav {
+  z-index: 10;
+  top: 75px;
+  right: calc((100% - 900px) / 2);
+  width: 955px;
+  background:
+    linear-gradient(
+      #585858 0%,
+      #747474 4%,
+      #747474 35%,
+      #6e6e6e 50%,
+      #646464 50%,
+      #5c5c5c 65%,
+      #7e7d7d 98%,
+      #747474 98%,
+      #585858 100%
+    );
+  border-radius: 4px;
+}
+
+.main-nav .fab {
+  font-size: 22px;
+}
+
+.main-nav ul {
+  list-style: none;
+  line-height: 25px;
+  align-content: center;
+}
+
+.main-nav li {
+  justify-content: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+  width: 105px;
+  padding: 4px 0;
+}
+
+.main-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.main-nav .search {
+  position: relative;
+}
+
+.main-nav .flex-item:hover {
+  cursor: pointer;
+  background:
+    linear-gradient(
+      #414040 0%,
+      #5a5a5a 4%,
+      #5f5f5f 35%,
+      #5a5a5a 50%,
+      #504f4f 50%,
+      #505050 65%,
+      #5e5d5d 98%,
+      #5e5d5d 98%,
+      #585858 100%
+    );
+}
+
+.main-nav .search .fas {
+  color: white;
+  right: 90px;
+  top: 12px;
+  font-size: 12px;
+}
+
+.main-nav input {
+  width: 95px;
+  height: 20px;
+  border-radius: 10px;
+  background: linear-gradient(#7c7c7c 0%, #606060 50%, #747474 90%);
+  margin: 8px 15px 0 10px;
+}
+
+.main-div {
+  margin: 0 auto;
+  height: 80vh;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-div div {
+  height: 200px;
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.main-div h1 {
+  font-size: 65px;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.main-div p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.main-div span {
+  display: block;
+  margin-top: 25px;
+}
+
+.main-div i {
+  font-weight: 100;
+  color: hsl(0deg 0% 100% / 70%);
+}
+
+/* -------------------------- Section below ---------------------- */
+
+.section-below {
+  justify-content: center;
+}
+
+.box {
+  margin-right: 2px;
+  margin-top: 2px;
+  width: 377px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box1 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
+}
+
+.box2 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
+}
+
+.box3 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
+}
+
+.box4 {
+  background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
+}
+
+/* ------------------------------- Footer ----------------------------- */
+
+footer {
+  width: 1000px;
+  margin: 25px auto;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.left {
+  float: left;
+}
+
+.footer-nav {
+  float: right;
+}
+
+.footer-nav .flag img {
+  height: 16px;
+  width: 16px;
+}
+
+.footer-nav ul {
+  list-style: none;
+  width: 520px;
+  align-items: center;
+}
+
+.clear-left {
+  clear: left;
+  padding-top: 25px;
+}
+
+.clear-left nav {
+  list-style: none;
+  width: 420px;
+}
+
+.clear-left ul {
+  list-style: none;
+}
+
+.clear-left ul li {
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.clear-left ul li:first-child {
+  border-right: 1px solid rgb(155, 145, 145);
+}
+
+.clear-left ul li:nth-child(2) {
+  padding-left: 5px;
+}
