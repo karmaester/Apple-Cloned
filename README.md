@@ -2,16 +2,14 @@
 
 # Apple Page Cloned
 
-> Made as the fourth HTML/CSS project in the Microverse curriculum
-
+> The structure of Apple page. We applied the beauty of background-image property and the also the power of gradient.
 
 ![screenshot](./screenshot.png)
 
-
 ## Built With
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ## Live Demo
 
@@ -44,7 +42,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Inspired on an older version of apple store
-https://web.archive.org/web/20140301004610/http://www.apple.com/
+  https://web.archive.org/web/20140301004610/http://www.apple.com/
+
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.

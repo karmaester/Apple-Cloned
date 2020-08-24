@@ -22,7 +22,7 @@ body {
 }
 
 .w-1200px {
-  width: 95vw;
+  width: 100%;
   min-width: 1200px;
 }
 
@@ -156,17 +156,16 @@ body {
 /* -------------------------- Section below ---------------------- */
 
 .section-below {
-  width: 95vw;
-  min-width: 1200px;
-  margin: 0 auto;
-  display: flex;
+  justify-content: center;
 }
 
 .box {
   margin-right: 2px;
   margin-top: 2px;
-  width: 364px;
+  width: 377px;
   height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box1 {
