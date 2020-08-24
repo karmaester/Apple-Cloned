@@ -41,17 +41,18 @@ body {
   top: 75px;
   right: calc((100% - 900px) / 2);
   width: 955px;
-  background: linear-gradient(
-    #585858 0%,
-    #747474 4%,
-    #747474 35%,
-    #6e6e6e 50%,
-    #646464 50%,
-    #5c5c5c 65%,
-    #7e7d7d 98%,
-    #747474 98%,
-    #585858 100%
-  );
+  background:
+    linear-gradient(
+      #585858 0%,
+      #747474 4%,
+      #747474 35%,
+      #6e6e6e 50%,
+      #646464 50%,
+      #5c5c5c 65%,
+      #7e7d7d 98%,
+      #747474 98%,
+      #585858 100%
+    );
   border-radius: 4px;
 }
 
@@ -85,17 +86,18 @@ body {
 
 .main-nav .flex-item:hover {
   cursor: pointer;
-  background: linear-gradient(
-    #414040 0%,
-    #5a5a5a 4%,
-    #5f5f5f 35%,
-    #5a5a5a 50%,
-    #504f4f 50%,
-    #505050 65%,
-    #5e5d5d 98%,
-    #5e5d5d 98%,
-    #585858 100%
-  );
+  background:
+    linear-gradient(
+      #414040 0%,
+      #5a5a5a 4%,
+      #5f5f5f 35%,
+      #5a5a5a 50%,
+      #504f4f 50%,
+      #505050 65%,
+      #5e5d5d 98%,
+      #5e5d5d 98%,
+      #585858 100%
+    );
 }
 
 .main-nav .search .fas {
@@ -116,8 +118,8 @@ body {
 .main-div {
   margin: 0 auto;
   height: 80vh;
-  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg)
-    50% 100% no-repeat;
+  background: 
+    url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
   background-size: cover;
   position: relative;
 }
