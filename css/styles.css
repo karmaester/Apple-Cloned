@@ -23,7 +23,7 @@ body {
 }
 
 .main-nav {
-  position: absolute;
+  position: relative;
   z-index: 10;
   top: 75px;
   right: calc((100% - 900px) / 2);
@@ -71,6 +71,20 @@ body {
   position: relative;
 }
 
+.main-nav .flex-item:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    #414040 0%,
+    #5a5a5a 4%,
+    #5f5f5f 35%,
+    #5a5a5a 50%,
+    #504f4f 50%,
+    #505050 65%,
+    #5e5d5d 98%,
+    #5e5d5d 98%,
+    #585858 100%
+  );
+}
 .main-nav .search .fas {
   color: white;
   position: absolute;
