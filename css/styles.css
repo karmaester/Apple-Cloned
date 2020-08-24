@@ -8,6 +8,14 @@ body {
   font-family: "Roboto", Helvetica, Arial, Verdana, sans-serif;
 }
 
+.space-b {
+  justify-content: space-between;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .font-blue {
   color: #0088cc;
   text-decoration: none;
@@ -23,7 +31,6 @@ body {
 }
 
 .main-nav {
-  position: relative;
   z-index: 10;
   top: 75px;
   right: calc((100% - 900px) / 2);
@@ -47,7 +54,6 @@ body {
 }
 
 .main-nav ul {
-  justify-content: space-between;
   list-style: none;
   line-height: 25px;
   align-content: center;
@@ -87,7 +93,6 @@ body {
 }
 .main-nav .search .fas {
   color: white;
-  position: absolute;
   right: 90px;
   top: 12px;
   font-size: 12px;
@@ -113,7 +118,6 @@ body {
 .main-div div {
   height: 200px;
   width: 800px;
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -197,7 +201,6 @@ footer {
 }
 
 .footer-nav ul {
-  justify-content: space-between;
   list-style: none;
   width: 520px;
   align-items: center;
@@ -215,13 +218,11 @@ footer {
 }
 
 .clear-left nav {
-  justify-content: space-between;
   list-style: none;
   width: 420px;
 }
 
 .clear-left ul {
-  justify-content: space-between;
   list-style: none;
 }
 
