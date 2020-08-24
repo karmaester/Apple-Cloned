@@ -17,7 +17,7 @@ body {
 }
 
 .font-blue {
-  color: #0088cc;
+  color: #08c;
   text-decoration: none;
 }
 
@@ -28,6 +28,12 @@ body {
 
 .d-flex {
   display: flex;
+}
+
+.footer-nav ul .flex-item {
+  border-right: 1px solid rgb(155, 145, 145);
+  justify-content: center;
+  padding-right: 5px;
 }
 
 .main-nav {
@@ -91,6 +97,7 @@ body {
     #585858 100%
   );
 }
+
 .main-nav .search .fas {
   color: white;
   right: 90px;
@@ -204,12 +211,6 @@ footer {
   list-style: none;
   width: 520px;
   align-items: center;
-}
-
-.footer-nav ul .flex-item {
-  border-right: 1px solid rgb(155, 145, 145);
-  justify-content: center;
-  padding-right: 5px;
 }
 
 .clear-left {
